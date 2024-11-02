@@ -1,0 +1,40 @@
+name: to_do_list
+description: "A app to note To-Do list"
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  path_provider: ^2.1.5
+  flutter_slidable: ^3.1.1
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.0.3
+
+flutter:
+  uses-material-design: true
+
+assets:
+  - images/
+
+fonts:
+  - family: Outfit
+    fonts:
+      - asset: assets/fonts/Outfit-Regular.ttf
+      - asset: assets/fonts/Outfit-Bold.ttf
+      - asset: assets/fonts/Outfit-Light.ttf
+      - asset: assets/fonts/Outfit-Medium.ttf
+      - asset: assets/fonts/Outfit-SemiBold.ttf
+      - asset: assets/fonts/Outfit-ExtraBold.ttf
+      - asset: assets/fonts/Outfit-Black.ttf
