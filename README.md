@@ -4,13 +4,14 @@ A new Flutter project. This is my first project with Flutter, and it's a to-do l
 
 ## Features
 
-- Create tasks
-- Edit tasks
-- Delete tasks
+
 - Swipe left on a task to delete it
 - Swipe right on a task to edit it
 
 ## Getting Started
+
+### Try the App
+### You can download and install the **app-release.apk** to try the app on your Android device.
 
 1. **Clone the repository:**
 
@@ -32,6 +33,5 @@ A new Flutter project. This is my first project with Flutter, and it's a to-do l
 
    ```bash
    flutter run
-# Try the App
-# You can download and install the app-release.apk to try the app on your Android device.
+
 
