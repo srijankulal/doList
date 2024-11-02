@@ -124,7 +124,7 @@ class _ToDoListState extends State<ToDoList> {
     return Scaffold(
       backgroundColor: Colors.blueGrey[900],
       appBar: AppBar(
-        title: Text('ToDoList App',
+        title: Text('doList App',
             style: TextStyle(
               color: Colors.cyanAccent,
               fontSize: 30,
