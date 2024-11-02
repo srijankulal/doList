@@ -8,10 +8,10 @@ A new Flutter project. This is my first project with Flutter, and it's a to-do l
 - Swipe left on a task to delete it
 - Swipe right on a task to edit it
 
-## Getting Started
-
-### Try the App
+## Try the App
 ### You can download and install the **app-release.apk** to try the app on your Android device.
+
+## Getting Started
 
 1. **Clone the repository:**
 
