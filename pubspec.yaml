@@ -14,6 +14,14 @@ dependencies:
   flutter_slidable: ^3.1.1
   hive: ^2.0.4
   hive_flutter: ^1.1.0
+  flutter_chat_core: ^2.4.0
+  flutter_chat_ui: ^2.3.1
+  google_gemini: ^0.1.2
+  flutter_dotenv: ^5.2.1
+  image_picker: ^1.1.2
+  flutter_gemini: ^3.0.0
+
+  # device_preview: ^1.2.0
 
 dev_dependencies:
   flutter_test:
@@ -21,20 +29,27 @@ dev_dependencies:
   flutter_lints: ^5.0.0
   hive_generator: ^2.0.1
   build_runner: ^2.0.3
+  # device_preview: ^1.2.0
+  google_fonts: ^6.2.1
 
 flutter:
   uses-material-design: true
 
 assets:
-  - images/
+  - fonts/
+  - .env
 
 fonts:
   - family: Outfit
     fonts:
-      - asset: assets/fonts/Outfit-Regular.ttf
-      - asset: assets/fonts/Outfit-Bold.ttf
-      - asset: assets/fonts/Outfit-Light.ttf
-      - asset: assets/fonts/Outfit-Medium.ttf
-      - asset: assets/fonts/Outfit-SemiBold.ttf
-      - asset: assets/fonts/Outfit-ExtraBold.ttf
-      - asset: assets/fonts/Outfit-Black.ttf
+      - asset: assets/Outfit-Regular.ttf
+      - asset: assets/Outfit-Bold.ttf
+      - asset: assets/Outfit-Light.ttf
+      - asset: assets/Outfit-Medium.ttf
+      - asset: assets/Outfit-SemiBold.ttf
+      - asset: assets/Outfit-ExtraBold.ttf
+      - asset: assets/Outfit-Black.ttf
+
+  - family: Satoshi
+    fonts:
+      - asset: assets/
